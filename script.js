@@ -26,6 +26,8 @@ function getCityInfo() {
           Regione: ${cityInfo.state}<br>
           Paese: ${cityInfo.country}<br>
           Fuso Orario: ${cityInfo.timezone}<br>
+          latitudine: ${cityInfo.latitude} <br>
+          longitudine: ${cityInfo.longitude} <br>
           Ora Locale: ${currentTime}
         `);
       }
