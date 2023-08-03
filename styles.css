@@ -25,6 +25,8 @@ input[type="text"] {
     margin-bottom: 10px;
     text-align: center;
     border-radius: 50px;
+    font-size: 30px;
+    border: 1px solid white;
 }
 
 button {
@@ -44,7 +46,7 @@ button {
     margin-top: 20px;
     color: red;
     font-size: 25px;
-    text-align: justify;
+    text-align: center;
 }
 
 body

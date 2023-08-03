@@ -23,7 +23,7 @@ function getCityInfo() {
 
         displayResult(`
           Città: ${cityInfo.name}<br>
-          Stato: ${cityInfo.state}<br>
+          Regione: ${cityInfo.state}<br>
           Paese: ${cityInfo.country}<br>
           Fuso Orario: ${cityInfo.timezone}<br>
           Ora Locale: ${currentTime}
