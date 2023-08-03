@@ -19,7 +19,7 @@ function getCityInfo() {
           timezone: city.annotations.timezone.name
         };
 
-        const currentTime = new Date().toLocaleString("en-US", { timeZone: cityInfo.timezone });
+        const currentTime = new Date().toLocaleString("it", { timeZone: cityInfo.timezone });
 
         displayResult(`
           Città: ${cityInfo.name}<br>
